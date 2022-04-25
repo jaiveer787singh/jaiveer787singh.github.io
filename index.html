@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Shawnee Airways</Title>
+        <link rel="stylesheet"
+        href="main_css_file.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <header class="header">
+        <div class="logo"><img src="Pictures/shawnee_airways_logo.png"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="contact_information.html">Contact Us!</a></li>
+                <li><a href="baggage_allowance.html">Baggage information</a></li>
+                <li><a href="timetable_and_routes.html">Timetable and Routes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <form action="/action_page.php">
+            <label for="origin">From:</label>
+            <select name="origin" id="origin">
+              <option value="Champaign">Champaign</option>
+              <option value="Chicago-Midway">Chicago-Midway</option>
+              <option value="Detroit">Detroit</option>
+              <option value="Indianapolis">Indianapolis</option>
+              <option value="Kansas City">Kansas City</option>
+              <option value="Louisville">Louisville</option>
+              <option value="Marion">Marion</option>
+              <option value="Memphis">Memphis</option>
+              <option value="Milwaukee">Milwaukee</option>
+              <option value="Moline">Moline</option>
+              <option value="Nashville">Nashville</option>
+              <option value="Springfield">Springfield</option>
+              <option value="St. Louis">St. Louis</option>
+            </select>
+            <br><br>
+            <label for="destination">To:</label>
+            <select name="destination" id="destination">
+              <option value="Champaign">Champaign</option>
+              <option value="Chicago-Midway">Chicago-Midway</option>
+              <option value="Detroit">Detroit</option>
+              <option value="Indianapolis">Indianapolis</option>
+              <option value="Kansas City">Kansas City</option>
+              <option value="Louisville">Louisville</option>
+              <option value="Marion">Marion</option>
+              <option value="Memphis">Memphis</option>
+              <option value="Milwaukee">Milwaukee</option>
+              <option value="Moline">Moline</option>
+              <option value="Nashville">Nashville</option>
+              <option value="Springfield">Springfield</option>
+              <option value="St. Louis">St. Louis</option>
+            </select>
+            <br><br>
+            <label for="number of adults">Adults (12+)</label>
+            <select name="number of adults" id="number of adults">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <label for="number of children">Children (3 to 11)</label>
+            <select name="number of children" id="number of children">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+            <label for="number of infants">Infants (0 to 2)</label>
+            <select name="number of infants" id="number of infants">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+            <label for="date_of_departure">Date of departure:</label>
+            <input type="date" name="date_of_departure" id="date_of_departure" required>
+            <label for="date_of_return">Date of return:</label>
+            <input type="date" name="date_of_return" id="date_of_return">
+            <input type="submit" value="Submit">
+          </form>
+          <img src="pictures/CRJ700.png" alt="Fleet representation">
+    </body>
+</html>
